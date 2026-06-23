@@ -1,0 +1,14 @@
+﻿# Visual Studio
+.vs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Large files (too big for GitHub)
+model/phishing_model.keras
+data/phishing_email.csv
+
+# Logs
+*.log
