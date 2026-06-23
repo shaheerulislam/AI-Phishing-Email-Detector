@@ -31,7 +31,6 @@ Paste any email into the web dashboard and get instant results with confidence s
 
 ## Installation
 
-\\\ash
 git clone https://github.com/shaheerulislam/AI-Phishing-Email-Detector.git
 cd AI-Phishing-Email-Detector
 pip install tensorflow scikit-learn pandas numpy flask nltk
@@ -41,7 +40,7 @@ Download dataset from Kaggle:
 https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset
 Place phishing_email.csv in the data/ folder, then:
 
-\\\ash
+\\\
 py src/preprocess.py
 py src/train.py
 py dashboard/app.py
@@ -65,4 +64,3 @@ AI-Phishing-Email-Detector/
 
 ## Author
 Shaheer ul Islam
-https://github.com/shaheerulislam
