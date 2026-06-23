@@ -13,9 +13,7 @@ An AI-powered phishing email detection system built with Bidirectional LSTM deep
 ## How to Run
 
 **1. Install dependencies**
-\`\`\`bash
 pip install tensorflow scikit-learn pandas numpy flask nltk
-\`\`\`
 
 **2. Download the dataset**
 
@@ -24,24 +22,17 @@ Download from Kaggle: https://www.kaggle.com/datasets/naserabdullahalam/phishing
 Place ``phishing_email.csv`` inside the ``data/`` folder.
 
 **3. Preprocess the data**
-\`\`\`bash
 py src/preprocess.py
-\`\`\`
 
 **4. Train the model**
-\`\`\`bash
 py src/train.py
-\`\`\`
 
 **5. Launch the dashboard**
-\`\`\`bash
 py dashboard/app.py
-\`\`\`
 
 **6. Open in browser**
-\`\`\`
 http://localhost:5000
-\`\`\`
+
 
 ## Results
 | Metric | Value |
@@ -60,7 +51,7 @@ http://localhost:5000
 | Backend | Python 3.9, Flask |
 
 ## Project Structure
-\`\`\`
+
 AI-Phishing-Email-Detector/
 ├── data/               <- dataset (not included, see step 3)
 ├── model/              <- trained model saved here
@@ -71,8 +62,7 @@ AI-Phishing-Email-Detector/
 ├── dashboard/
 │   └── app.py          <- Flask web dashboard
 └── README.md
-\`\`\`
+
 
 ## Author
 **Shaheer ul Islam**
-GitHub: https://github.com/shaheerulislam
